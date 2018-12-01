@@ -1,0 +1,287 @@
+2018-11-26 09:57:07,553 (StartupInfoLogger.java:50)  INFO Starting Application on admindeMacBook-Pro.local with PID 85976 (/Users/lianpengfei/git/miaosha/miaosha_5/target/classes started by lianpengfei in /Users/lianpengfei/git/miaosha/miaosha_5)
+2018-11-26 09:57:07,602 (SpringApplication.java:675)  INFO No active profile set, falling back to default profiles: default
+2018-11-26 09:57:08,595 (PostProcessorRegistrationDelegate.java:330)  INFO Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$2422f10] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-26 09:57:08,965 (TomcatWebServer.java:90)  INFO Tomcat initialized with port(s): 8080 (http)
+2018-11-26 09:57:09,103 (ServletWebServerApplicationContext.java:285)  INFO Root WebApplicationContext: initialization completed in 1459 ms
+2018-11-26 09:57:09,160 (ServletRegistrationBean.java:186)  INFO Servlet dispatcherServlet mapped to [/]
+2018-11-26 09:57:09,161 (ServletRegistrationBean.java:186)  INFO Servlet statViewServlet mapped to [/druid/*]
+2018-11-26 09:57:09,164 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-26 09:57:09,164 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-26 09:57:09,165 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'formContentFilter' to: [/*]
+2018-11-26 09:57:09,165 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-26 09:57:09,165 (AbstractFilterRegistrationBean.java:261)  INFO Mapping filter: 'webStatFilter' to urls: [/*]
+2018-11-26 09:57:09,165 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'resourceUrlEncodingFilter' to: [/*]
+2018-11-26 09:57:09,999 (Log4j2Impl.java:106)  INFO {dataSource-1} inited
+2018-11-26 09:57:10,455 (ExecutorConfigurationSupport.java:171)  INFO Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-26 09:57:10,820 (AbstractConnectionFactory.java:455)  INFO Attempting to connect to: [127.0.0.1:5672]
+2018-11-26 09:57:10,870 (AbstractConnectionFactory.java:491)  INFO Created new connection: rabbitConnectionFactory#75483843:0/SimpleConnection@3a790e40 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 50975]
+2018-11-26 09:57:11,006 (TomcatWebServer.java:204)  INFO Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-26 09:57:11,010 (StartupInfoLogger.java:59)  INFO Started Application in 3.902 seconds (JVM running for 4.864)
+2018-11-26 09:57:28,586 (FrameworkServlet.java:521)  INFO Initializing Servlet 'dispatcherServlet'
+2018-11-26 09:57:28,595 (FrameworkServlet.java:543)  INFO Completed initialization in 8 ms
+2018-11-26 09:57:28,618 (MQSender.java:26)  INFO 发送消息:hello,lian
+2018-11-26 09:57:28,634 (MQReceiver.java:20)  INFO 接受消息:hello,lian
+2018-11-26 09:57:50,502 (StartupInfoLogger.java:50)  INFO Starting Application on admindeMacBook-Pro.local with PID 86113 (/Users/lianpengfei/git/miaosha/miaosha_5/target/classes started by lianpengfei in /Users/lianpengfei/git/miaosha/miaosha_5)
+2018-11-26 09:57:50,504 (SpringApplication.java:675)  INFO No active profile set, falling back to default profiles: default
+2018-11-26 09:57:51,434 (PostProcessorRegistrationDelegate.java:330)  INFO Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$16077eac] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-26 09:57:51,748 (TomcatWebServer.java:90)  INFO Tomcat initialized with port(s): 8080 (http)
+2018-11-26 09:57:51,838 (ServletWebServerApplicationContext.java:285)  INFO Root WebApplicationContext: initialization completed in 1283 ms
+2018-11-26 09:57:51,898 (ServletRegistrationBean.java:186)  INFO Servlet dispatcherServlet mapped to [/]
+2018-11-26 09:57:51,899 (ServletRegistrationBean.java:186)  INFO Servlet statViewServlet mapped to [/druid/*]
+2018-11-26 09:57:51,902 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-26 09:57:51,902 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-26 09:57:51,902 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'formContentFilter' to: [/*]
+2018-11-26 09:57:51,902 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-26 09:57:51,902 (AbstractFilterRegistrationBean.java:261)  INFO Mapping filter: 'webStatFilter' to urls: [/*]
+2018-11-26 09:57:51,903 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'resourceUrlEncodingFilter' to: [/*]
+2018-11-26 09:57:52,634 (Log4j2Impl.java:106)  INFO {dataSource-1} inited
+2018-11-26 09:57:53,040 (ExecutorConfigurationSupport.java:171)  INFO Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-26 09:57:53,345 (AbstractConnectionFactory.java:455)  INFO Attempting to connect to: [127.0.0.1:5672]
+2018-11-26 09:57:53,378 (AbstractConnectionFactory.java:491)  INFO Created new connection: rabbitConnectionFactory#124ac145:0/SimpleConnection@46e64760 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 51376]
+2018-11-26 09:57:53,483 (TomcatWebServer.java:204)  INFO Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-26 09:57:53,488 (StartupInfoLogger.java:59)  INFO Started Application in 3.413 seconds (JVM running for 4.16)
+2018-11-26 09:57:58,880 (FrameworkServlet.java:521)  INFO Initializing Servlet 'dispatcherServlet'
+2018-11-26 09:57:58,886 (FrameworkServlet.java:543)  INFO Completed initialization in 6 ms
+2018-11-26 09:57:58,905 (MQSender.java:26)  INFO 发送消息:hello,lian
+2018-11-26 09:57:58,920 (MQReceiver.java:19)  INFO 接受消息:hello,lian
+2018-11-26 10:37:52,315 (StartupInfoLogger.java:50)  INFO Starting Application on admindeMacBook-Pro.local with PID 93759 (/Users/lianpengfei/git/miaosha/miaosha_5/target/classes started by lianpengfei in /Users/lianpengfei/git/miaosha/miaosha_5)
+2018-11-26 10:37:52,316 (SpringApplication.java:675)  INFO No active profile set, falling back to default profiles: default
+2018-11-26 10:37:53,300 (PostProcessorRegistrationDelegate.java:330)  INFO Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$311ac2ae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-26 10:37:53,683 (TomcatWebServer.java:90)  INFO Tomcat initialized with port(s): 8080 (http)
+2018-11-26 10:37:53,791 (ServletWebServerApplicationContext.java:285)  INFO Root WebApplicationContext: initialization completed in 1434 ms
+2018-11-26 10:37:53,838 (ServletRegistrationBean.java:186)  INFO Servlet dispatcherServlet mapped to [/]
+2018-11-26 10:37:53,840 (ServletRegistrationBean.java:186)  INFO Servlet statViewServlet mapped to [/druid/*]
+2018-11-26 10:37:53,843 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-26 10:37:53,843 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-26 10:37:53,843 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'formContentFilter' to: [/*]
+2018-11-26 10:37:53,843 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-26 10:37:53,844 (AbstractFilterRegistrationBean.java:261)  INFO Mapping filter: 'webStatFilter' to urls: [/*]
+2018-11-26 10:37:53,844 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'resourceUrlEncodingFilter' to: [/*]
+2018-11-26 10:37:54,557 (Log4j2Impl.java:106)  INFO {dataSource-1} inited
+2018-11-26 10:37:54,960 (ExecutorConfigurationSupport.java:171)  INFO Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-26 10:37:55,280 (AbstractConnectionFactory.java:455)  INFO Attempting to connect to: [127.0.0.1:5672]
+2018-11-26 10:37:55,327 (AbstractConnectionFactory.java:491)  INFO Created new connection: rabbitConnectionFactory#5f038248:0/SimpleConnection@7da31a40 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 49937]
+2018-11-26 10:37:55,575 (TomcatWebServer.java:204)  INFO Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-26 10:37:55,578 (StartupInfoLogger.java:59)  INFO Started Application in 3.658 seconds (JVM running for 4.37)
+2018-11-26 10:38:07,589 (FrameworkServlet.java:521)  INFO Initializing Servlet 'dispatcherServlet'
+2018-11-26 10:38:07,597 (FrameworkServlet.java:543)  INFO Completed initialization in 8 ms
+2018-11-26 10:38:07,618 (MQSender.java:26)  INFO 发送消息:topic_test
+2018-11-26 10:38:07,631 (MQReceiver.java:19)  INFO 接受消息:topic_test
+2018-11-26 10:40:09,387 (StartupInfoLogger.java:50)  INFO Starting Application on admindeMacBook-Pro.local with PID 94192 (/Users/lianpengfei/git/miaosha/miaosha_5/target/classes started by lianpengfei in /Users/lianpengfei/git/miaosha/miaosha_5)
+2018-11-26 10:40:09,390 (SpringApplication.java:675)  INFO No active profile set, falling back to default profiles: default
+2018-11-26 10:40:10,307 (PostProcessorRegistrationDelegate.java:330)  INFO Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$425a137b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-26 10:40:10,677 (TomcatWebServer.java:90)  INFO Tomcat initialized with port(s): 8080 (http)
+2018-11-26 10:40:10,801 (ServletWebServerApplicationContext.java:285)  INFO Root WebApplicationContext: initialization completed in 1377 ms
+2018-11-26 10:40:10,847 (ServletRegistrationBean.java:186)  INFO Servlet dispatcherServlet mapped to [/]
+2018-11-26 10:40:10,848 (ServletRegistrationBean.java:186)  INFO Servlet statViewServlet mapped to [/druid/*]
+2018-11-26 10:40:10,851 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-26 10:40:10,851 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-26 10:40:10,851 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'formContentFilter' to: [/*]
+2018-11-26 10:40:10,851 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-26 10:40:10,851 (AbstractFilterRegistrationBean.java:261)  INFO Mapping filter: 'webStatFilter' to urls: [/*]
+2018-11-26 10:40:10,852 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'resourceUrlEncodingFilter' to: [/*]
+2018-11-26 10:40:11,576 (Log4j2Impl.java:106)  INFO {dataSource-1} inited
+2018-11-26 10:40:12,001 (ExecutorConfigurationSupport.java:171)  INFO Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-26 10:40:12,343 (AbstractConnectionFactory.java:455)  INFO Attempting to connect to: [127.0.0.1:5672]
+2018-11-26 10:40:12,369 (AbstractConnectionFactory.java:491)  INFO Created new connection: rabbitConnectionFactory#71904469:0/SimpleConnection@1fc713c9 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 50920]
+2018-11-26 10:40:12,547 (TomcatWebServer.java:204)  INFO Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-26 10:40:12,550 (StartupInfoLogger.java:59)  INFO Started Application in 3.557 seconds (JVM running for 4.292)
+2018-11-26 10:40:16,672 (FrameworkServlet.java:521)  INFO Initializing Servlet 'dispatcherServlet'
+2018-11-26 10:40:16,679 (FrameworkServlet.java:543)  INFO Completed initialization in 7 ms
+2018-11-26 10:40:16,698 (MQSender.java:26)  INFO 发送消息:topic_test
+2018-11-26 10:40:16,711 (MQReceiver.java:19)  INFO 接受消息:topic_test
+2018-11-26 10:44:31,383 (StartupInfoLogger.java:50)  INFO Starting Application on admindeMacBook-Pro.local with PID 95025 (/Users/lianpengfei/git/miaosha/miaosha_5/target/classes started by lianpengfei in /Users/lianpengfei/git/miaosha/miaosha_5)
+2018-11-26 10:44:31,385 (SpringApplication.java:675)  INFO No active profile set, falling back to default profiles: default
+2018-11-26 10:44:32,327 (PostProcessorRegistrationDelegate.java:330)  INFO Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$d2572cb8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-26 10:44:32,699 (TomcatWebServer.java:90)  INFO Tomcat initialized with port(s): 8080 (http)
+2018-11-26 10:44:32,817 (ServletWebServerApplicationContext.java:285)  INFO Root WebApplicationContext: initialization completed in 1397 ms
+2018-11-26 10:44:32,866 (ServletRegistrationBean.java:186)  INFO Servlet dispatcherServlet mapped to [/]
+2018-11-26 10:44:32,867 (ServletRegistrationBean.java:186)  INFO Servlet statViewServlet mapped to [/druid/*]
+2018-11-26 10:44:32,869 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-26 10:44:32,869 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-26 10:44:32,870 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'formContentFilter' to: [/*]
+2018-11-26 10:44:32,870 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-26 10:44:32,870 (AbstractFilterRegistrationBean.java:261)  INFO Mapping filter: 'webStatFilter' to urls: [/*]
+2018-11-26 10:44:32,870 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'resourceUrlEncodingFilter' to: [/*]
+2018-11-26 10:44:33,574 (Log4j2Impl.java:106)  INFO {dataSource-1} inited
+2018-11-26 10:44:34,008 (ExecutorConfigurationSupport.java:171)  INFO Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-26 10:44:34,407 (AbstractConnectionFactory.java:455)  INFO Attempting to connect to: [127.0.0.1:5672]
+2018-11-26 10:44:34,435 (AbstractConnectionFactory.java:491)  INFO Created new connection: rabbitConnectionFactory#7a04fea7:0/SimpleConnection@3e5fd2b1 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 52672]
+2018-11-26 10:44:34,633 (TomcatWebServer.java:204)  INFO Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-26 10:44:34,637 (StartupInfoLogger.java:59)  INFO Started Application in 3.654 seconds (JVM running for 4.392)
+2018-11-26 10:44:39,232 (FrameworkServlet.java:521)  INFO Initializing Servlet 'dispatcherServlet'
+2018-11-26 10:44:39,239 (FrameworkServlet.java:543)  INFO Completed initialization in 7 ms
+2018-11-26 10:44:39,258 (MQSender.java:32)  INFO 发送消息:topic_test
+2018-11-26 10:44:39,276 (MQReceiver.java:29)  INFO topicQueue2接受消息:topic_test
+2018-11-26 10:44:39,276 (MQReceiver.java:24)  INFO topicQueue1接受消息:topic_test
+2018-11-26 10:45:21,605 (StartupInfoLogger.java:50)  INFO Starting Application on admindeMacBook-Pro.local with PID 95178 (/Users/lianpengfei/git/miaosha/miaosha_5/target/classes started by lianpengfei in /Users/lianpengfei/git/miaosha/miaosha_5)
+2018-11-26 10:45:21,607 (SpringApplication.java:675)  INFO No active profile set, falling back to default profiles: default
+2018-11-26 10:45:22,532 (PostProcessorRegistrationDelegate.java:330)  INFO Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$16077eac] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-26 10:45:22,894 (TomcatWebServer.java:90)  INFO Tomcat initialized with port(s): 8080 (http)
+2018-11-26 10:45:23,024 (ServletWebServerApplicationContext.java:285)  INFO Root WebApplicationContext: initialization completed in 1374 ms
+2018-11-26 10:45:23,071 (ServletRegistrationBean.java:186)  INFO Servlet dispatcherServlet mapped to [/]
+2018-11-26 10:45:23,072 (ServletRegistrationBean.java:186)  INFO Servlet statViewServlet mapped to [/druid/*]
+2018-11-26 10:45:23,074 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-26 10:45:23,075 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-26 10:45:23,075 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'formContentFilter' to: [/*]
+2018-11-26 10:45:23,075 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-26 10:45:23,075 (AbstractFilterRegistrationBean.java:261)  INFO Mapping filter: 'webStatFilter' to urls: [/*]
+2018-11-26 10:45:23,075 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'resourceUrlEncodingFilter' to: [/*]
+2018-11-26 10:45:23,801 (Log4j2Impl.java:106)  INFO {dataSource-1} inited
+2018-11-26 10:45:24,234 (ExecutorConfigurationSupport.java:171)  INFO Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-26 10:45:24,598 (AbstractConnectionFactory.java:455)  INFO Attempting to connect to: [127.0.0.1:5672]
+2018-11-26 10:45:24,626 (AbstractConnectionFactory.java:491)  INFO Created new connection: rabbitConnectionFactory#124ac145:0/SimpleConnection@6f044c58 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 53104]
+2018-11-26 10:45:24,820 (TomcatWebServer.java:204)  INFO Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-26 10:45:24,823 (StartupInfoLogger.java:59)  INFO Started Application in 3.634 seconds (JVM running for 4.379)
+2018-11-26 10:45:30,953 (FrameworkServlet.java:521)  INFO Initializing Servlet 'dispatcherServlet'
+2018-11-26 10:45:30,961 (FrameworkServlet.java:543)  INFO Completed initialization in 8 ms
+2018-11-26 10:45:30,979 (MQSender.java:38)  INFO 发送消息:topic_test
+2018-11-26 10:45:30,992 (MQReceiver.java:29)  INFO topicQueue2接受消息:topic_test
+2018-11-26 10:52:32,742 (MQSender.java:32)  INFO 发送消息:topic_test
+2018-11-26 10:52:32,746 (MQReceiver.java:29)  INFO topicQueue2接受消息:topic_test
+2018-11-26 10:52:32,746 (MQReceiver.java:24)  INFO topicQueue1接受消息:topic_test
+2018-11-26 10:53:23,349 (MQSender.java:38)  INFO 发送消息:topic_test
+2018-11-26 10:53:23,352 (MQReceiver.java:29)  INFO topicQueue2接受消息:topic_test
+2018-11-26 10:56:08,654 (StartupInfoLogger.java:50)  INFO Starting Application on admindeMacBook-Pro.local with PID 97211 (/Users/lianpengfei/git/miaosha/miaosha_5/target/classes started by lianpengfei in /Users/lianpengfei/git/miaosha/miaosha_5)
+2018-11-26 10:56:08,690 (SpringApplication.java:675)  INFO No active profile set, falling back to default profiles: default
+2018-11-26 10:56:09,447 (PostProcessorRegistrationDelegate.java:330)  INFO Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$f77935db] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-26 10:56:09,782 (TomcatWebServer.java:90)  INFO Tomcat initialized with port(s): 8080 (http)
+2018-11-26 10:56:09,873 (ServletWebServerApplicationContext.java:285)  INFO Root WebApplicationContext: initialization completed in 1145 ms
+2018-11-26 10:56:09,918 (ServletRegistrationBean.java:186)  INFO Servlet dispatcherServlet mapped to [/]
+2018-11-26 10:56:09,920 (ServletRegistrationBean.java:186)  INFO Servlet statViewServlet mapped to [/druid/*]
+2018-11-26 10:56:09,922 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-26 10:56:09,923 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-26 10:56:09,923 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'formContentFilter' to: [/*]
+2018-11-26 10:56:09,923 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-26 10:56:09,923 (AbstractFilterRegistrationBean.java:261)  INFO Mapping filter: 'webStatFilter' to urls: [/*]
+2018-11-26 10:56:09,924 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'resourceUrlEncodingFilter' to: [/*]
+2018-11-26 10:56:10,543 (Log4j2Impl.java:106)  INFO {dataSource-1} inited
+2018-11-26 10:56:10,885 (ExecutorConfigurationSupport.java:171)  INFO Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-26 10:56:11,164 (AbstractConnectionFactory.java:455)  INFO Attempting to connect to: [127.0.0.1:5672]
+2018-11-26 10:56:11,200 (AbstractConnectionFactory.java:491)  INFO Created new connection: rabbitConnectionFactory#3374b5bc:0/SimpleConnection@30c4e352 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 57252]
+2018-11-26 10:56:11,326 (TomcatWebServer.java:204)  INFO Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-26 10:56:11,329 (StartupInfoLogger.java:59)  INFO Started Application in 3.025 seconds (JVM running for 3.775)
+2018-11-26 10:56:22,731 (FrameworkServlet.java:521)  INFO Initializing Servlet 'dispatcherServlet'
+2018-11-26 10:56:22,738 (FrameworkServlet.java:543)  INFO Completed initialization in 6 ms
+2018-11-26 10:56:22,757 (MQSender.java:42)  INFO 发送消息:topic_test
+2018-11-26 10:56:22,770 (MQReceiver.java:37)  INFO topicQueue2接受消息:topic_test
+2018-11-26 11:09:58,580 (StartupInfoLogger.java:50)  INFO Starting Application on admindeMacBook-Pro.local with PID 99826 (/Users/lianpengfei/git/miaosha/miaosha_5/target/classes started by lianpengfei in /Users/lianpengfei/git/miaosha/miaosha_5)
+2018-11-26 11:09:58,585 (SpringApplication.java:675)  INFO No active profile set, falling back to default profiles: default
+2018-11-26 11:09:59,371 (PostProcessorRegistrationDelegate.java:330)  INFO Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$a1efbb7e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-26 11:09:59,715 (TomcatWebServer.java:90)  INFO Tomcat initialized with port(s): 8080 (http)
+2018-11-26 11:09:59,801 (ServletWebServerApplicationContext.java:285)  INFO Root WebApplicationContext: initialization completed in 1180 ms
+2018-11-26 11:09:59,842 (ServletRegistrationBean.java:186)  INFO Servlet dispatcherServlet mapped to [/]
+2018-11-26 11:09:59,844 (ServletRegistrationBean.java:186)  INFO Servlet statViewServlet mapped to [/druid/*]
+2018-11-26 11:09:59,846 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-26 11:09:59,846 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-26 11:09:59,846 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'formContentFilter' to: [/*]
+2018-11-26 11:09:59,847 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-26 11:09:59,847 (AbstractFilterRegistrationBean.java:261)  INFO Mapping filter: 'webStatFilter' to urls: [/*]
+2018-11-26 11:09:59,847 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'resourceUrlEncodingFilter' to: [/*]
+2018-11-26 11:10:00,479 (Log4j2Impl.java:106)  INFO {dataSource-1} inited
+2018-11-26 11:10:00,831 (ExecutorConfigurationSupport.java:171)  INFO Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-26 11:10:01,107 (AbstractConnectionFactory.java:455)  INFO Attempting to connect to: [127.0.0.1:5672]
+2018-11-26 11:10:01,146 (AbstractConnectionFactory.java:491)  INFO Created new connection: rabbitConnectionFactory#6a094db2:0/SimpleConnection@3481ff98 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 62531]
+2018-11-26 11:10:01,322 (TomcatWebServer.java:204)  INFO Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-26 11:10:01,326 (StartupInfoLogger.java:59)  INFO Started Application in 3.126 seconds (JVM running for 3.85)
+2018-11-26 11:10:18,939 (FrameworkServlet.java:521)  INFO Initializing Servlet 'dispatcherServlet'
+2018-11-26 11:10:18,945 (FrameworkServlet.java:543)  INFO Completed initialization in 6 ms
+2018-11-26 11:10:18,964 (MQSender.java:51)  INFO fanout发送消息:fanout_test
+2018-11-26 11:10:18,980 (MQReceiver.java:28)  INFO topicQueue1接受消息:fanout_test
+2018-11-26 11:10:18,980 (MQReceiver.java:37)  INFO topicQueue2接受消息:fanout_test
+2018-11-26 11:14:14,481 (MQSender.java:33)  INFO 发送消息:topic_test
+2018-11-26 11:14:14,483 (MQReceiver.java:37)  INFO topicQueue2接受消息:topic_test
+2018-11-26 11:14:14,483 (MQReceiver.java:28)  INFO topicQueue1接受消息:topic_test
+2018-11-26 11:14:30,783 (MQSender.java:42)  INFO 发送消息:topic_test
+2018-11-26 11:14:30,786 (MQReceiver.java:37)  INFO topicQueue2接受消息:topic_test
+2018-11-26 11:42:50,225 (StartupInfoLogger.java:50)  INFO Starting Application on admindeMacBook-Pro.local with PID 6165 (/Users/lianpengfei/git/miaosha/miaosha_5/target/classes started by lianpengfei in /Users/lianpengfei/git/miaosha/miaosha_5)
+2018-11-26 11:42:50,232 (SpringApplication.java:675)  INFO No active profile set, falling back to default profiles: default
+2018-11-26 11:42:51,001 (PostProcessorRegistrationDelegate.java:330)  INFO Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$7d3871f6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-26 11:42:51,347 (TomcatWebServer.java:90)  INFO Tomcat initialized with port(s): 8080 (http)
+2018-11-26 11:42:51,441 (ServletWebServerApplicationContext.java:285)  INFO Root WebApplicationContext: initialization completed in 1172 ms
+2018-11-26 11:42:51,488 (ServletRegistrationBean.java:186)  INFO Servlet dispatcherServlet mapped to [/]
+2018-11-26 11:42:51,490 (ServletRegistrationBean.java:186)  INFO Servlet statViewServlet mapped to [/druid/*]
+2018-11-26 11:42:51,492 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-26 11:42:51,493 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-26 11:42:51,493 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'formContentFilter' to: [/*]
+2018-11-26 11:42:51,493 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-26 11:42:51,494 (AbstractFilterRegistrationBean.java:261)  INFO Mapping filter: 'webStatFilter' to urls: [/*]
+2018-11-26 11:42:51,494 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'resourceUrlEncodingFilter' to: [/*]
+2018-11-26 11:42:52,136 (Log4j2Impl.java:106)  INFO {dataSource-1} inited
+2018-11-26 11:42:52,484 (ExecutorConfigurationSupport.java:171)  INFO Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-26 11:42:52,766 (AbstractConnectionFactory.java:455)  INFO Attempting to connect to: [127.0.0.1:5672]
+2018-11-26 11:42:52,805 (AbstractConnectionFactory.java:491)  INFO Created new connection: rabbitConnectionFactory#52e04737:0/SimpleConnection@66933239 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 58486]
+2018-11-26 11:42:52,996 (TomcatWebServer.java:204)  INFO Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-26 11:42:52,999 (StartupInfoLogger.java:59)  INFO Started Application in 3.164 seconds (JVM running for 3.913)
+2018-11-26 11:42:59,048 (FrameworkServlet.java:521)  INFO Initializing Servlet 'dispatcherServlet'
+2018-11-26 11:42:59,056 (FrameworkServlet.java:543)  INFO Completed initialization in 8 ms
+2018-11-26 11:42:59,075 (MQSender.java:62)  INFO header发送消息:header_test
+2018-11-26 11:42:59,087 (MQReceiver.java:48)  INFO headerQueue接受消息:[B@56f9d17c
+2018-11-26 11:43:37,983 (StartupInfoLogger.java:50)  INFO Starting Application on admindeMacBook-Pro.local with PID 6321 (/Users/lianpengfei/git/miaosha/miaosha_5/target/classes started by lianpengfei in /Users/lianpengfei/git/miaosha/miaosha_5)
+2018-11-26 11:43:38,014 (SpringApplication.java:675)  INFO No active profile set, falling back to default profiles: default
+2018-11-26 11:43:38,787 (PostProcessorRegistrationDelegate.java:330)  INFO Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$3815218f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-26 11:43:39,108 (TomcatWebServer.java:90)  INFO Tomcat initialized with port(s): 8080 (http)
+2018-11-26 11:43:39,199 (ServletWebServerApplicationContext.java:285)  INFO Root WebApplicationContext: initialization completed in 1143 ms
+2018-11-26 11:43:39,244 (ServletRegistrationBean.java:186)  INFO Servlet dispatcherServlet mapped to [/]
+2018-11-26 11:43:39,246 (ServletRegistrationBean.java:186)  INFO Servlet statViewServlet mapped to [/druid/*]
+2018-11-26 11:43:39,248 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-26 11:43:39,248 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-26 11:43:39,249 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'formContentFilter' to: [/*]
+2018-11-26 11:43:39,249 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-26 11:43:39,249 (AbstractFilterRegistrationBean.java:261)  INFO Mapping filter: 'webStatFilter' to urls: [/*]
+2018-11-26 11:43:39,249 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'resourceUrlEncodingFilter' to: [/*]
+2018-11-26 11:43:39,897 (Log4j2Impl.java:106)  INFO {dataSource-1} inited
+2018-11-26 11:43:40,254 (ExecutorConfigurationSupport.java:171)  INFO Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-26 11:43:40,541 (AbstractConnectionFactory.java:455)  INFO Attempting to connect to: [127.0.0.1:5672]
+2018-11-26 11:43:40,567 (AbstractConnectionFactory.java:491)  INFO Created new connection: rabbitConnectionFactory#7a0e7ecd:0/SimpleConnection@60d6fdd4 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 58911]
+2018-11-26 11:43:40,708 (TomcatWebServer.java:204)  INFO Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-26 11:43:40,712 (StartupInfoLogger.java:59)  INFO Started Application in 3.088 seconds (JVM running for 3.829)
+2018-11-26 11:43:47,347 (FrameworkServlet.java:521)  INFO Initializing Servlet 'dispatcherServlet'
+2018-11-26 11:43:47,355 (FrameworkServlet.java:543)  INFO Completed initialization in 8 ms
+2018-11-26 11:43:47,373 (MQSender.java:62)  INFO header发送消息:header_test
+2018-11-26 11:43:47,385 (MQReceiver.java:48)  INFO headerQueue接受消息:header_test
+2018-11-26 11:45:52,935 (StartupInfoLogger.java:50)  INFO Starting Application on admindeMacBook-Pro.local with PID 6742 (/Users/lianpengfei/git/miaosha/miaosha_5/target/classes started by lianpengfei in /Users/lianpengfei/git/miaosha/miaosha_5)
+2018-11-26 11:45:52,939 (SpringApplication.java:675)  INFO No active profile set, falling back to default profiles: default
+2018-11-26 11:45:53,719 (PostProcessorRegistrationDelegate.java:330)  INFO Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$1294a64] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-26 11:45:54,034 (TomcatWebServer.java:90)  INFO Tomcat initialized with port(s): 8080 (http)
+2018-11-26 11:45:54,118 (ServletWebServerApplicationContext.java:285)  INFO Root WebApplicationContext: initialization completed in 1144 ms
+2018-11-26 11:45:54,159 (ServletRegistrationBean.java:186)  INFO Servlet dispatcherServlet mapped to [/]
+2018-11-26 11:45:54,161 (ServletRegistrationBean.java:186)  INFO Servlet statViewServlet mapped to [/druid/*]
+2018-11-26 11:45:54,163 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-26 11:45:54,163 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-26 11:45:54,164 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'formContentFilter' to: [/*]
+2018-11-26 11:45:54,164 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-26 11:45:54,164 (AbstractFilterRegistrationBean.java:261)  INFO Mapping filter: 'webStatFilter' to urls: [/*]
+2018-11-26 11:45:54,164 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'resourceUrlEncodingFilter' to: [/*]
+2018-11-26 11:45:54,797 (Log4j2Impl.java:106)  INFO {dataSource-1} inited
+2018-11-26 11:45:55,153 (ExecutorConfigurationSupport.java:171)  INFO Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-26 11:45:55,431 (AbstractConnectionFactory.java:455)  INFO Attempting to connect to: [127.0.0.1:5672]
+2018-11-26 11:45:55,458 (AbstractConnectionFactory.java:491)  INFO Created new connection: rabbitConnectionFactory#9596ce8:0/SimpleConnection@7c781c42 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 59887]
+2018-11-26 11:45:55,599 (TomcatWebServer.java:204)  INFO Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-26 11:45:55,603 (StartupInfoLogger.java:59)  INFO Started Application in 3.054 seconds (JVM running for 3.798)
+2018-11-26 11:45:58,882 (FrameworkServlet.java:521)  INFO Initializing Servlet 'dispatcherServlet'
+2018-11-26 11:45:58,890 (FrameworkServlet.java:543)  INFO Completed initialization in 7 ms
+2018-11-26 11:45:58,908 (MQSender.java:62)  INFO header发送消息:header_test
+2018-11-26 11:47:19,975 (StartupInfoLogger.java:50)  INFO Starting Application on admindeMacBook-Pro.local with PID 7007 (/Users/lianpengfei/git/miaosha/miaosha_5/target/classes started by lianpengfei in /Users/lianpengfei/git/miaosha/miaosha_5)
+2018-11-26 11:47:19,979 (SpringApplication.java:675)  INFO No active profile set, falling back to default profiles: default
+2018-11-26 11:47:20,793 (PostProcessorRegistrationDelegate.java:330)  INFO Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$6319b7c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-26 11:47:21,078 (TomcatWebServer.java:90)  INFO Tomcat initialized with port(s): 8080 (http)
+2018-11-26 11:47:21,165 (ServletWebServerApplicationContext.java:285)  INFO Root WebApplicationContext: initialization completed in 1149 ms
+2018-11-26 11:47:21,207 (ServletRegistrationBean.java:186)  INFO Servlet dispatcherServlet mapped to [/]
+2018-11-26 11:47:21,208 (ServletRegistrationBean.java:186)  INFO Servlet statViewServlet mapped to [/druid/*]
+2018-11-26 11:47:21,211 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-26 11:47:21,211 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-26 11:47:21,211 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'formContentFilter' to: [/*]
+2018-11-26 11:47:21,211 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-26 11:47:21,212 (AbstractFilterRegistrationBean.java:261)  INFO Mapping filter: 'webStatFilter' to urls: [/*]
+2018-11-26 11:47:21,212 (AbstractFilterRegistrationBean.java:248)  INFO Mapping filter: 'resourceUrlEncodingFilter' to: [/*]
+2018-11-26 11:47:21,889 (Log4j2Impl.java:106)  INFO {dataSource-1} inited
+2018-11-26 11:47:22,253 (ExecutorConfigurationSupport.java:171)  INFO Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-26 11:47:22,526 (AbstractConnectionFactory.java:455)  INFO Attempting to connect to: [127.0.0.1:5672]
+2018-11-26 11:47:22,554 (AbstractConnectionFactory.java:491)  INFO Created new connection: rabbitConnectionFactory#60bbacfc:0/SimpleConnection@1dd74143 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 60559]
+2018-11-26 11:47:22,682 (TomcatWebServer.java:204)  INFO Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-26 11:47:22,686 (StartupInfoLogger.java:59)  INFO Started Application in 3.114 seconds (JVM running for 3.884)
+2018-11-26 11:47:27,043 (FrameworkServlet.java:521)  INFO Initializing Servlet 'dispatcherServlet'
+2018-11-26 11:47:27,050 (FrameworkServlet.java:543)  INFO Completed initialization in 7 ms
+2018-11-26 11:47:27,069 (MQSender.java:62)  INFO header发送消息:header_test
+2018-11-26 11:47:27,084 (MQReceiver.java:48)  INFO headerQueue接受消息:header_test
